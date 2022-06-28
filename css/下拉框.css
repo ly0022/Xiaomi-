@@ -1,0 +1,142 @@
+
+/* 下拉框 */
+
+.goods-list .header-nav-menu.menuHeight {
+    height: 229px;
+}
+
+.goods-list .header-nav-menu {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    z-index: 99999;
+    width: 100%;
+    height: 0;
+    border-top: 1px solid #e0e0e0;
+    background: #fff;
+    overflow: hidden;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, .18);
+    transition: box-shadow .3s, height .4s;
+    display: none;
+}
+
+.header-nav-menu ul {
+    height: 229px;
+}
+
+.header-nav-menu .menu-nav {
+    float: left;
+    width: 180px;
+    padding: 35px 12px 0;
+    text-align: center;
+    position: relative;
+}
+
+
+.header-nav-menu .figure {
+    width: 160px;
+    height: 110px;
+    margin: 0 auto 16px;
+    text-align: center;
+}
+
+.header-nav-menu .menu-nav p,
+.menu-nav .title {
+    font-size: 12px;
+}
+
+.header-nav-menu .menu-nav .title {
+    line-height: 20px;
+    color: #333;
+}
+
+.header-nav-menu .menu-nav p {
+    line-height: 20px;
+    color: #ff6700;
+}
+
+.header-nav-menu .container {
+    height: 229px;
+}
+
+.goods-menu {
+    width: 234px;
+    height: 460px;
+    position: relative;
+    left: -86px;
+    z-index: 999;
+    font-size: 14px;
+    background-color: rgb(165, 163, 163);
+}
+
+.left-menu {
+    width: 234px;
+    height: 420px;
+    padding: 20px 0;
+
+}
+
+.goods-menu .left-menu .left-good {
+    float: none;
+    line-height: 42px;
+}
+
+.goods-menu .left-menu .left-good a {
+    padding: 0 0 0 30px;
+    height: 42px;
+    color: white;
+}
+
+.left-good:hover {
+    background-color: rgb(255, 117, 23);
+}
+
+.goods-menu .left-menu .left-good i::before {
+    content: '\eb15'
+}
+
+.goods-menu .left-menu .left-good i {
+    position: absolute;
+    right: 20px;
+    font-size: 16px;
+}
+
+.goods-menu .left-menu .left-good .commodity {
+    display: none;
+    width: 992px;
+    height: 458px;
+    border: 1px solid #e0e0e0;
+    position: absolute;
+    top: 0;
+    left: 234px;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, .18);
+}
+
+.goods-menu .left-menu .left-good .commodity .com-ul {
+    float: left;
+    width: 248px;
+    height: 458px;
+    /* background-color: aquamarine; */
+}
+
+.goods-menu .left-menu .left-good .commodity .com-li {
+    width: 265px;
+    height: 76px;
+}
+
+.goods-menu .left-menu .left-good .commodity .com-li .link {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 76px;
+    text-align: center;
+}
+
+.commodity .com-li img {
+    vertical-align: middle;
+}
+
+.commodity .com-li .text {
+    color: black;
+}

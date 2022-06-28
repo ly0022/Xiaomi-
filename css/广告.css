@@ -1,0 +1,88 @@
+.foot-container {
+    width: 1226px;
+    height: 170px;
+    /* background-color: #bfa; */
+    margin-top: 15px;
+}
+
+.foot-container li {
+    float: left;
+}
+
+.foot-container .wrapper {
+    width: 234px;
+    height: 170px;
+    background-color: rgb(95, 87, 80);
+
+}
+
+.foot-container .img1 {
+    width: 310px;
+    height: 170px;
+    margin-left: 20.67px;
+}
+
+.foot-container .img1 img {
+    width: 310px;
+    height: 170px;
+
+}
+
+.wrapper .sub-l {
+    width: 234px;
+    height: 170px;
+}
+
+.wrapper .sub-l .l-list {
+    padding: 3px;
+    text-align: center;
+    background: #5f5750;
+}
+
+.wrapper .sub-l .l-list li {
+    position: relative;
+    float: left;
+    width: 70px;
+    height: 82px;
+    padding: 0 3px;
+}
+
+.sub-l .l-list li::before,
+.sub-l .l-list li::after {
+    position: absolute;
+    content: "";
+    background: #665e57;
+}
+
+.sub-l .l-list li::before {
+    top: -1px;
+    left: 6px;
+    width: 64px;
+    height: 1px;
+}
+
+.sub-l .l-list li::after {
+    top: 6px;
+    left: 0;
+    width: 1px;
+    height: 70px;
+}
+
+.sub-l .l-list li>a {
+    display: block;
+    padding-top: 18px;
+    color: #fff;
+    opacity: .7;
+    transition: opacity .2s;
+}
+
+.sub-l .l-list li img {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: auto auto;
+}
+
+.sub-l .l-list li a:hover {
+    opacity: 1;
+}

@@ -1,0 +1,236 @@
+.head {
+    height: 140px;
+}
+
+.topbar-wrapper {
+    background-color: rgb(51, 51, 51);
+    color: #424242;
+    width: 100%;
+    line-height: 40px;
+    font-size: 12px;
+}
+
+.topbar-wrapper a {
+    color: #b0b0b0;
+    display: block;
+}
+
+.topbar-container {
+    position: relative;
+}
+
+.topbar-container .left-item {
+    float: left;
+}
+
+.topbar-container .right-item {
+    float: right;
+}
+
+.topbar-container li {
+    float: left;
+    /* text-align: center; */
+}
+
+.topbar-container a:hover {
+    color: white;
+}
+
+.topbar-container .division {
+    float: left;
+    text-align: center;
+    margin: 0 8px;
+}
+
+.app {
+    position: relative;
+    ;
+}
+
+.triangle {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border: 10px solid;
+    left: 0;
+    top: 20.5px;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    border-color: transparent transparent white;
+    display: none;
+}
+
+.QRcode {
+    width: 124px;
+    /* height: 148px; */
+    height: 0px;
+    background-color: white;
+    position: absolute;
+    top: 40.5px;
+    left: -39.5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .15);
+    z-index: 9999;
+    text-align: center;
+    line-height: 1;
+    font-size: 14px;
+    overflow: hidden;
+    color: #333;
+    transition: height 0.3s ease 0s;
+}
+
+.QRcode span {
+    display: inline-block;
+}
+
+.app:hover .QRcode {
+    height: 148px;
+}
+
+.app:hover .triangle {
+    display: block;
+}
+
+
+.QRcode img {
+    width: 90px;
+    /* position: absolute; */
+    margin: 18px 0 12px;
+    left: 0;
+    right: 0;
+    /* display: block; */
+    display: inline-block;
+}
+
+.topbar-container .shop-cart {
+    margin-left: 26px;
+    background-color: #424242;
+    padding-left: 15px;
+    padding-right: 22px;
+    /* position: relative; */
+}
+
+.topbar-container .shop-cart:hover {
+    background-color: white;
+}
+
+.topbar-container .shop-cart:hover a {
+    color: orange;
+}
+
+.shop-list {
+    width: 320px;
+    /* height:100px; */
+    height: 0px;
+    overflow: hidden;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .15);
+    right: 0;
+    top: 40px;
+    /* display: none; */
+    text-align: center;
+    z-index: 9999;
+    transition: height 0.3s ease 0s;
+    color: black;
+    /* vertical-align: middle; */
+    line-height: 100px;
+    font-size: 12px;
+}
+
+.topbar-container .shop-cart:hover .shop-list {
+    height: 100px;
+}
+
+.head-wrapper {
+    height: 100px;
+    position: relative;
+
+}
+
+.head-container {
+    height: 100px;
+    color: #333;
+    font-size: 16px;
+}
+
+.head-container .logo {
+    width: 56px;
+    height: 56px;
+    background-color: rgb(255, 106, 0);
+    margin-top: 22px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    font-size: 12px;
+}
+
+.head-container .logo span {
+    display: inline-block;
+    text-indent: -5000px;
+}
+
+.head-container .logo a {
+    font-size: 30px;
+    line-height: 56px;
+    text-align: center;
+    transition: left 0.3s ease 0s;
+
+}
+
+.head-container .logo a i {
+    color: white;
+}
+
+.head-container .logo .xiao {
+    width: 56px;
+    height: 56px;
+    background-color: rgb(255, 117, 23);
+    ;
+    position: absolute;
+    float: left;
+    top: 0;
+}
+
+.head-container .logo .mi {
+    width: 56px;
+    height: 56px;
+    background-color: rgb(255, 117, 23);
+    ;
+    position: absolute;
+    top: 0;
+    left: -56px;
+}
+
+.head-container .logo:hover .xiao {
+    left: 56px;
+}
+
+.head-container .logo:hover .mi {
+    left: 0;
+}
+
+.goods-list {
+    float: left;
+    width: 1140px;
+    height: 88px;
+    padding-top: 12px;
+    padding-left: 30px;
+}
+
+.goods-list li {
+    float: left;
+}
+
+.goods-list li:hover span:not(.left-good span) {
+    color: rgb(255, 117, 23);
+}
+
+.goods-list li a {
+    padding: 26px 10px 38px;
+}
+
+.goods-list .category .goodcategory {
+    padding-right: 15px;
+    visibility: hidden;
+}

@@ -1,0 +1,65 @@
+/* 轮播图 */
+#banner-container {
+    width: 1226px;
+    height: 460px;
+
+    position: relative;
+    overflow: hidden;
+}
+
+#banner-container #banner {
+    height: 460px;
+    position: absolute;
+
+}
+
+#banner-container li {
+    float: left;
+}
+
+#banner-container img {
+    vertical-align: top;
+
+}
+
+#banner-container #pointer-wrapper .po:hover {
+    background-color: orange;
+}
+
+
+
+#banner-container #pointer-wrapper {
+    position: absolute;
+    z-index: 999999;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+
+}
+
+#banner-container #pointer-wrapper .po {
+    width: 15px;
+    height: 15px;
+    background-color: rgb(114, 110, 110);
+
+    float: left;
+    margin: 0px 15px;
+    border-radius: 50%;
+    opacity: 0.7;
+
+}
+
+
+.banner-container .banner:hover {
+    animation-play-state: paused;
+}
+
+
+.banner-container .banner li {
+    float: left;
+}
+
+.banner-container .banner img {
+    width: 992px;
+    height: 460px;
+}
